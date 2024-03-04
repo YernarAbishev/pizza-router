@@ -1,0 +1,9 @@
+<div class="card">
+    <img src="{% imageUrl %}" alt="Image" class="card-img">
+    <h3 class="card-title">{% pizzaName %}</h3>
+    <div class="card-size">{% size %} cm</div>
+    <div class="card-flex">
+        <a href="/pizza?id={% id %}" class="button-primary">View</a>
+        <span class="card-price">{% price %} Т</span>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "pizzaName": "Chorizo Fresh",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fecb0ce138ab40ccbfc15f664f1db408_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 2800,
+    "size": 35,
+    "isInStock": true
+  },
+  {
+    "id": 1,
+    "pizzaName": "Peperoni",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b9e9517672f94fd98640017e61d35205_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 1900,
+    "size": 35,
+    "isInStock": true
+  },
+  {
+    "id": 2,
+    "pizzaName": "Cheese Chicken",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/51cbb001363c4740bda09200b14301a5_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 2100,
+    "size": 35,
+    "isInStock": true
+  },
+  {
+    "id": 3,
+    "pizzaName": "Pesto",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/755a3e12e89843f0be82047cdc433c78_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 2700,
+    "size": 35,
+    "isInStock": false
+  },
+  {
+    "id": 4,
+    "pizzaName": "Burger Pizza",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5a6c858feec44b85bf85d72d2a50e3d2_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 2700,
+    "size": 35,
+    "isInStock": false
+  },
+  {
+    "id": 5,
+    "pizzaName": "Hawaii",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/7d56c950bcef45b38ae61cca1b27dbf5_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 2400,
+    "size": 35,
+    "isInStock": true
+  },
+  {
+    "id": 6,
+    "pizzaName": "Diablo",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/afccc45d4d5e40fda6d1a8a3de31f6eb_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 2900,
+    "size": 35,
+    "isInStock": true
+  },
+  {
+    "id": 7,
+    "pizzaName": "Mixed",
+    "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/393b6d17ae0543b8bd274ca769b46c31_584x584.webp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aspernatur autem consectetur expedita fugit, harum laudantium magni maxime molestiae non quae, quaerat, quibusdam reiciendis suscipit vero vitae voluptatibus.",
+    "price": 3600,
+    "size": 35,
+    "isInStock": false
+  }
+]

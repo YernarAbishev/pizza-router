@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% pizzaName %}</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+    }
+    :root {
+        --primary: #4fa684;
+        --danger: #e1241b;
+        --light: #ffffff;
+        --dark: #70544f;
+        --secondary: #ededed;
+    }
+    body {
+        background: var(--secondary);
+    }
+    .wrap {
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+    }
+    .container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .title {
+        color: var(--dark);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .button-primary {
+        border-radius: 30px;
+        padding: 10px 30px;
+        display: inline-block;
+        background: var(--primary);
+        color: var(--light);
+        text-align: center;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .isInStock {
+        background: var(--danger);
+        color: var(--light);
+        cursor: not-allowed;
+        content: "this pizza out of stock";
+    }
+    .mb-5 {
+        margin-bottom: 20px;
+    }
+    .card-detail {
+        border-radius: 30px;
+        width: 100%;
+        display: flex;
+        background: var(--light);
+        padding: 30px;
+        justify-content: space-between;
+    }
+    .card-detail-img {
+        display: block;
+        width: 250px;
+        height: 250px;
+        margin-right: 20px;
+    }
+    .card-detail-description {
+        color: var(--dark);
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .card-detail-price {
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: var(--dark);
+    }
+
+</style>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <a href="/pizzas" class="button-primary mb-5">Back</a>
+            <h1 class="title">{% pizzaName %}</h1>
+            <div class="card-detail">
+                <img src="{% imageUrl %}" class="card-detail-img" alt="{% pizzaName %}">
+                <div class="card-detail-data">
+                    <p class="card-detail-description"><b>Description:</b> {% description %}</p>
+                    <p class="card-detail-price">Price: {% price %} Т</p>
+                    <a href="#" class="button-primary {% isInStock %}">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
